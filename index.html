@@ -6,80 +6,80 @@
     <title>Веб Студия</title>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet">
-      <link rel="stylesheet" href="css/normalize.css">
-      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="./css/normalize.css">
+      <link rel="stylesheet" href="./css/styles.css">
   </head>
   <body>
     <!-- шапка сайта -->
-    <header>
-     <nav>
-      <a href="/"><span>Web</span> Studio</a>
-       <ul>
-        <li><a href="./index.html">Студия</a></li>
-        <li><a href="./portfolio.html">Портфолио</a></li>
-        <li><a href="">Контакты</a></li>
+    <header class="header">
+     <nav class="navigation">
+      <a class="logo-link link" href="./index.html">Web <span class="studio-black">Studio</span></a>
+       <ul class="novigation-list list">
+        <li class="novigation-list-item"><a class="studio active link" href="./index.html">Студия</a></li>
+        <li class="novigation-list-item"><a class="portfolio link" href="./portfolio.html">Портфолио</a></li>
+        <li class="novigation-list-item"><a class="contacts link" href="">Контакты</a></li>
        </ul>
   </nav>
   
-    <address>
-     <ul>
-      <li><a href="malto:info@devstudio.com">info@devstudio.com</a></li>
-      <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+    <address class="header-address">
+     <ul class="header-address-list list">
+      <li class="header-address-list-item"><a class="header-address-list-link link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+      <li class="header-address-list-item"><a class="header-address-list-link link" href="tel:+380961111111">+38 096 111 11 11</a></li>
      </ul>
     </address>
   
     </header>
     <main>
       <!-- секция герой -->
-      <section>
-        <h1>Эффективные решения <br>для вашего бизнеса</h1>
-        <button>Заказать услугу</button>
+      <section class="hero">
+        <h1 class="hero-title">Эффективные решения <br>для вашего бизнеса</h1>
+        <button class="hero-btn">Заказать услугу</button>
       </section>
       <!-- о нас -->
-      <section>
-        <h2 hidden>о нас</h2>
+      <section class="about-us">
+        <h2 class="title" hidden>о нас</h2>
 
-         <ul>
-          <li>
-            <h3>Внимание к деталям</h3>
-            <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+         <ul class="list">
+          <li class="about-us-list">
+            <h3 class="about-us-title">Внимание к деталям</h3>
+            <p class="about-us-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
           </li>
           <li>
-            <h3>Пунктуальность</h3>
-            <p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+            <h3 class="about-us-title">Пунктуальность</h3>
+            <p class="about-us-text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
           </li>
           <li>
-            <h3>Планирование</h3>
-            <p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+            <h3 class="about-us-title">Планирование</h3>
+            <p class="about-us-text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
           </li>
           <li>
-            <h3>Современные технологии</h3>
-            <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+            <h3 class="about-us-title">Современные технологии</h3>
+            <p class="about-us-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
           </li>
         </ul>
       </section>
       <!-- чем мы занимаемся -->
-      <section>
-        <h2>Чем мы занимаемся</h2>
-        <ul>
+      <section class="our-work">
+        <h2 class="title">Чем мы занимаемся</h2>
+        <ul class="list">
           <li><img src="./images/notebook.jpg" alt="человек работает на ноутбуке" width="370" height="294">
-            <p>Десктопные приложения</p>
+            <p class="our-work-text">Десктопные приложения</p>
           </li>
            <li><img src="./images/smartfon.jpg" alt="смартфон" width="370" height="294">
-            <p>Мобильные приложения</p>
+            <p class="our-work-text">Мобильные приложения</p>
           </li>
           <li><img src="./images/monitor.jpg" alt="монитор" width="370" height="294">
-            <p>Дизайнерские решения</p>
+            <p class="our-work-text">Дизайнерские решения</p>
           </li>
         </ul>
       </section>
       <!-- Наша команда -->
-      <section>
-        <H2>Наша команда</H2>
-        <ul>
+      <section class="team">
+        <h2 class="title">Наша команда</h2>
+        <ul class="list">
         <li><img src="./images/team-1.jpg" alt="Улыбающийся мужчина" width="270" height="260">
-          <h3>Николай Кучеренко</h3>
-          <p>Иван Николаев</p>
+          <h3 class="team-title">Николай Кучеренко</h3>
+          <p class="team-text">Product Designer</p>
           <ul>
             <li>
               <a href="" aria-label="иконка инстаграма"></a>
@@ -97,8 +97,8 @@
         </li>
           
         <li><img src="./images/team-2.jpg" alt="Улыбающаяся девушка" width="270" height="260">
-          <h3>Ольга Иванова</h3>
-          <p>Frontend Developer</p>
+          <h3 class="team-title">Ольга Иванова</h3>
+          <p class="team-text">Frontend Developer</p>
             <ul>
               <li>
                 <a href="" aria-label="иконка инстаграма"></a>
@@ -116,8 +116,8 @@
         </li>
 
         <li><img src="./images/team-3.jpg" alt="Парень с хитрым взглядом" width="270" height="260">
-          <h3>Андрей Шевченко</h3>
-          <p>Marketing</p>
+          <h3 class="team-title">Андрей Шевченко</h3>
+          <p class="team-text">Marketing</p>
             <ul>
               <li>
                 <a href="" aria-label="иконка инстаграма"></a>
@@ -135,8 +135,8 @@
         </li>
           
         <li><img src="./images/team-4.jpg" alt="смеющийся парень" width="270" height="260">
-          <h3>Иван Николаев</h3>
-          <p>UI Designer</p>
+          <h3 class="team-title">Иван Николаев</h3>
+          <p class="team-text">UI Designer</p>
             <ul>
               <li>
                 <a href="" aria-label="иконка инстаграма"></a>
@@ -156,9 +156,9 @@
         </ul>
       </section>
       <!-- Постоянные клиенты -->
-      <section>
-        <h2>Постоянные клиенты</h2>
-        <ul>
+      <section class="regular-customers">
+        <h2 class="title">Постоянные клиенты</h2>
+        <ul class="list">
           <li>
             <a href="" aria-label="ссылка на клиент 1"><img src="./images/logo-1.svg" alt=""></a>
           </li>
@@ -182,40 +182,40 @@
 
     </main>
     <!-- Подвал -->
-    <footer>
+    <footer class="footer">
       <div>
-           <a href="/"><span>Web</span> Studio</a>
-          <ul>
+           <a class="logo-link link" href="./index.html">Web <span class="studio-white">Studio</span></a>
+          <ul class="list">
             <li>
-              <address>
+              <address class="footer-address address">
                 г. Киев, пр-т Леси Украинки, 26
               </address>
             </li>
             <li>
-              <address>
-                <a href="malto:info@example.com">info@example.com</a>
+              <address class="address">
+                <a class="footer-address-list-link link" href="mailto:info@example.com">info@example.com</a>
               </address>
             </li>
             <li>
-              <address>
-                <a href="tet:+380991111111">+38 099 111 11 11</a>
+              <address class="address">
+                <a class="footer-address-list-link link" href="tel:+380961111111">+38 099 111 11 11</a>
               </address>
             </li>
           </ul>
       </div>
       <div>
-        <b>присоединяйтесь</b>
+        <b class="footer-join">присоединяйтесь</b>
         <ul>
-          <li>
+          <li class="social-link-item">
             <a href="" aria-label="иконка инстаграма"></a>
           </li>
-          <li>
+          <li class="social-link-item">
             <a href="" aria-label="иконка твитера"></a>
           </li>
-          <li>
+          <li class="social-link-item">
             <a href="" aria-label="иконка фейсбука"></a>
           </li>
-          <li>
+          <li class="social-link-item">
             <a href="" aria-label="иконка ликедина"></a>
           </li>
         </ul>
